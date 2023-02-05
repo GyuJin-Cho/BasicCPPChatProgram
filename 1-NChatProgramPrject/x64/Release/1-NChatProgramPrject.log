@@ -1,0 +1,11 @@
+﻿  Server.cpp
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Server.cpp(130,12): warning C4244: 'return': conversion from 'SOCKET' to 'int', possible loss of data
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Server.cpp(235,87): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Server.cpp(245,27): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Server.cpp(245,27): warning C4302: 'type cast': truncation from 'void *' to 'int'
+  Generating code
+  1 of 20 functions ( 5.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  1-NChatProgramPrject.vcxproj -> E:\BasicCPPChatProgram\x64\Release\1-NChatProgramPrject.exe

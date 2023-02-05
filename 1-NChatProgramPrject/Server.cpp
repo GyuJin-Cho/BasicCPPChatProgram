@@ -1,5 +1,6 @@
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNIGS
+#pragma comment(lib, "ws2_32.lib")
 
 #include <stdio.h>
 #include <WinSock2.h>
@@ -63,9 +64,10 @@ int main(int argc, char* argv[])
 	char message[MAXBYTE] = "";
 	HANDLE mainthread;
 
-	printf("\n사용법 : mcodes_server [포트번호]\n");
-	printf("         ex) mcodes_server.exe 9999\n");
-	printf("         ex) mcodes_server.exe \n\n");
+	printf("\n서버 입니다 사용법.\n");
+	printf("명령 프롬포트 창을 열어 사용합니다.\n");
+	printf("디렉토리에 들어가면 Server.exe [알맞는 포트]로 입력해주세요\n");
+	printf("                   ex) Server.exe 9999\n\n");
 
 	if (argv[1] != NULL)
 		port_number = atoi(argv[1]);

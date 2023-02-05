@@ -1,0 +1,5 @@
+﻿  Client.cpp
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Client.cpp(50,78): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+E:\BasicCPPChatProgram\1-NChatProgramPrject\Client.cpp(101,12): warning C4244: 'return': conversion from 'SOCKET' to 'int', possible loss of data
+  LINK : E:\BasicCPPChatProgram\x64\Debug\1-NChatProgramPrject.exe not found or not built by the last incremental link; performing full link
+  1-NChatProgramPrject.vcxproj -> E:\BasicCPPChatProgram\x64\Debug\1-NChatProgramPrject.exe
